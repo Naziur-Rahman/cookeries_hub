@@ -1,11 +1,11 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Home from '../home/Home'
+import Header from '../header/Header'
 import Footer from '../footer/Footer'
 const Roots = () => {
   return (
     <>
-      <Home></Home>
+      <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
     </>
