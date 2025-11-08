@@ -37,7 +37,7 @@ const Footer = () => {
               </a>
               
               {/* LinkedIn */}
-              <a href="https://www.facebook.com/cookeriesHub" 
+              <a href="https://www.linkedin.com/company/cookeries-hub/?viewAsMember=true" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-ghost btn-circle btn-sm hover:bg-blue-600 transition-colors"
