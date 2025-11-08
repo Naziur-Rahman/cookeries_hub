@@ -18,6 +18,7 @@ import StorageAndContainers from './components/pages/StorageAndContainers';
 import BakeWare from './components/pages/BakeWare';
 import LogIn from './components/login/LogIn';
 import LogOut from './components/login/LogOut';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -56,6 +57,9 @@ const router = createBrowserRouter([
       },
       {
         path: 'Bake_Ware',element: <BakeWare></BakeWare>
+      },
+      {
+        path: 'privacy-policy',element: <PrivacyPolicy></PrivacyPolicy>
       },
       {
         path: 'Bake_Ware',element: <BakeWare></BakeWare>
