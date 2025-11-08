@@ -16,6 +16,8 @@ import PansAndPots from './components/pages/PansAndPots';
 import TableAccessories from './components/pages/TableAccessories';
 import StorageAndContainers from './components/pages/StorageAndContainers';
 import BakeWare from './components/pages/BakeWare';
+import LogIn from './components/login/LogIn';
+import LogOut from './components/login/LogOut';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -26,10 +28,10 @@ const router = createBrowserRouter([
         path: 'Home',element: <Home />,
       },
       {
-        path: 'About_Us', element: <AboutUs></AboutUs>
+        path: 'about-us', element: <AboutUs></AboutUs>
       },
       {
-        path: 'Contact_Us',element: <ContactUs></ContactUs>
+        path: 'contact-us',element: <ContactUs></ContactUs>
       },
       {
         path: 'Dinner_Ware',element: <DinnerWare></DinnerWare>
@@ -51,6 +53,12 @@ const router = createBrowserRouter([
       },
       {
         path: 'Storage_&_Container',element: <StorageAndContainers></StorageAndContainers>
+      },
+      {
+        path: 'Bake_Ware',element: <BakeWare></BakeWare>
+      },
+      {
+        path: 'Bake_Ware',element: <BakeWare></BakeWare>
       },
       {
         path: 'Bake_Ware',element: <BakeWare></BakeWare>
