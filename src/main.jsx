@@ -21,6 +21,7 @@ import LogOut from './components/login/LogOut';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import TermsAndCondition from './components/pages/termsAndCondition';
 import CookiePolicy from './components/pages/CookiePolicy';
+import ReturnAndExchange from './components/pages/ReturnAndExchenge';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -68,6 +69,9 @@ const router = createBrowserRouter([
       },
       {
         path: 'cookie-policy',element: <CookiePolicy></CookiePolicy>
+      },
+      {
+        path: 'returns',element: <ReturnAndExchange></ReturnAndExchange>
       },
     ],
   },
