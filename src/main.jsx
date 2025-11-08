@@ -20,6 +20,7 @@ import LogIn from './components/login/LogIn';
 import LogOut from './components/login/LogOut';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import TermsAndCondition from './components/pages/termsAndCondition';
+import CookiePolicy from './components/pages/CookiePolicy';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -66,7 +67,7 @@ const router = createBrowserRouter([
         path: 'terms-of-service',element: <TermsAndCondition></TermsAndCondition>
       },
       {
-        path: 'Bake_Ware',element: <BakeWare></BakeWare>
+        path: 'cookie-policy',element: <CookiePolicy></CookiePolicy>
       },
     ],
   },
