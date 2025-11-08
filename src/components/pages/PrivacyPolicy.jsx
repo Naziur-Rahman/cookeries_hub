@@ -157,7 +157,7 @@ You can control cookies through your browser settings, but disabling cookies may
               <Link to="/contact-us" className="btn btn-outline btn-primary">
                 Contact Support
               </Link>
-              <Link to="/terms" className="btn btn-outline btn-primary">
+              <Link to="/terms-of-service" className="btn btn-outline btn-primary">
                 Terms of Service
               </Link>
               <button className="btn btn-outline btn-primary" onClick={() => window.print()}>

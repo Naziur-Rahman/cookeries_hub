@@ -179,25 +179,25 @@ const AboutUs = () => {
             <div className="stat">
               <div className="stat-title text-primary-content">Happy Customers</div>
               <div className="stat-value">10,000+</div>
-              <div className="stat-desc">Since 2020</div>
+              <div className="stat-desc text-white">Since 2023</div>
             </div>
             
             <div className="stat">
               <div className="stat-title text-primary-content">Products</div>
               <div className="stat-value">500+</div>
-              <div className="stat-desc">Quality Items</div>
+              <div className="stat-desc text-white">Quality Items</div>
             </div>
             
             <div className="stat">
               <div className="stat-title text-primary-content">Orders Delivered</div>
               <div className="stat-value">50,000+</div>
-              <div className="stat-desc">Across Bangladesh</div>
+              <div className="stat-desc text-white">Across Bangladesh</div>
             </div>
 
             <div className="stat">
               <div className="stat-title text-primary-content">Support</div>
               <div className="stat-value">24/7</div>
-              <div className="stat-desc">Customer Care</div>
+              <div className="stat-desc text-white">Customer Care</div>
             </div>
           </div>
         </section>
