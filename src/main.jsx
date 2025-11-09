@@ -23,6 +23,7 @@ import TermsAndCondition from './components/pages/termsAndCondition';
 import CookiePolicy from './components/pages/CookiePolicy';
 import ReturnAndExchange from './components/pages/ReturnAndExchenge';
 import FAQ from './components/pages/FAQ';
+import ShoppingInformation from './components/pages/ShopingInformation';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -76,6 +77,9 @@ const router = createBrowserRouter([
       },
       {
         path: 'faq',element: <FAQ></FAQ>
+      },
+      {
+        path: 'shipping-info',element: <ShoppingInformation></ShoppingInformation>
       },
     ],
   },
